@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+}
+.loai{
+    font-size: 23px;
+    font-weight: bolder;
+    float: left;
+    line-height: 55px;   
+}
+.hang{
+    width: 80%;
+    transform: translateX(12.5%);
+    height: 60px;
+}
+.hang ul{
+    display: flex;
+    justify-content: flex-end;
+    }
+.hang li{
+    width: 9%;
+    text-align: center;
+    display: inline-table;
+    font-size: 18px;
+    border-radius: 4px;
+   
+    margin-left: 10px;
+}
+.hang li:hover{
+    cursor: pointer;
+    background-color: rgb(55, 173, 194);
+}
+.contener{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    transform: translateX(12.5%);
+    background-color: white;
+}
+.list{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+}
+.item .imgvp1{
+    width: 90%;
+    height: 205px;
+    background-image: url('./anh/maytinh/lapvanphong/anh1.webp');
+    background-size: cover;
+}
+.imgvp1:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh1.2.webp');
+}
+.item .imgvp2{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh2.webp');
+    background-size: cover;
+}
+.imgvp2:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh2.webp');
+}
+.item .imgvp3{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh3.webp');
+    background-size: cover;
+}
+.imgvp3:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh3.2.webp');
+}
+.item .imgvp4{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh4.png');
+    background-size: cover;
+}
+.imgvp4:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh4.png');
+}
+.item .imgvp5{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh5.webp');
+    background-size: cover;
+}
+.imgvp5:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh5.2.webp');
+}
+.item .imgvp6{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh6.jpg');
+    background-size: cover;
+}
+.imgvp6:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh6.2.jpg');
+}
+.item .imgvp7{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh7.png');
+    background-size: cover;
+}
+.imgvp7:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh7.png');
+}
+.item .imgvp8{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh8.png');
+    background-size: cover;
+}
+.imgvp8:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh8.2.png');
+}
+.item .imgvp9{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh9.jpg');
+    background-size: cover;
+}
+.imgvp9:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh9.2.jpg');
+}
+.item .imgvp10{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapvanphong/anh10.png');
+    background-size: cover;
+}
+.imgvp10:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapvanphong/anh10.2.jpg');
+}
+.item .imgdh1{
+    width: 90%;
+    height: 205px;
+    background-image: url('./anh/maytinh/lapdohoa/anh1.png');
+    background-size: cover;
+}
+.imgdh1:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh1.2.png');
+}
+.item .imgdh2{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh2.jpg');
+    background-size: cover;
+}
+.imgdh2:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh2.2.webp');
+}
+.item .imgdh3{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh3.png');
+    background-size: cover;
+}
+.imgdh3:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh3.2.gif');
+}
+.item .imgdh4{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh4.webp');
+    background-size: cover;
+}
+.imgdh4:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh4.2.webp');
+}
+.item .imgdh5{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh5.png');
+    background-size: cover;
+}
+.imgdh5:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh5.2.png');
+}
+.item .imgdh6{
+    width: 90%;
+    height: 205px;
+    background-image: url('./anh/maytinh/lapdohoa/anh6.webp');
+    background-size: cover;
+}
+.imgdh6:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh6.2.png');
+}
+.item .imgdh7{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh7.webp');
+    background-size: cover;
+}
+.imgdh7:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh7.2.webp');
+}
+.item .imgdh8{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh8.webp');
+    background-size: cover;
+}
+.imgdh8:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh8.2.webp');
+}
+.item .imgdh9{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh9.webp');
+    background-size: cover;
+}
+.imgdh9:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh9.2.webp');
+}
+.item .imgdh10{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh10.webp');
+    background-size: cover;
+}
+.imgdh10:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh10.webp');
+}
+.item .imgdn1{
+    width: 90%;
+    height: 205px;
+    background-image: url('./anh/maytinh/lapdohoa/anh1.png');
+    background-size: cover;
+}
+.imgdn1:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh1.2.png');
+}
+.item .imgdn2{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh2.jpg');
+    background-size: cover;
+}
+.imgdn2:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh2.2.webp');
+}
+.item .imgdn3{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh3.png');
+    background-size: cover;
+}
+.imgdn3:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh3.2.gif');
+}
+.item .imgdn4{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh4.webp');
+    background-size: cover;
+}
+.imgdn4:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh4.2.webp');
+}
+.item .imgdn5{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh5.png');
+    background-size: cover;
+}
+.imgdn5:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh5.2.png');
+}
+.item .imgdh6{
+    width: 90%;
+    height: 205px;
+    background-image: url('./anh/maytinh/lapdohoa/anh6.webp');
+    background-size: cover;
+}
+.imgdn6:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh6.2.png');
+}
+.item .imgdn7{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh7.webp');
+    background-size: cover;
+}
+.imgdn7:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh7.2.webp');
+}
+.item .imgdn8{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh8.webp');
+    background-size: cover;
+}
+.imgdn8:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh8.2.webp');
+}
+.item .imgdn9{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh9.webp');
+    background-size: cover;
+}
+.imgdn9:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh9.2.webp');
+}
+.item .imgdn10{
+    width: 90%;
+    height: 210px;
+    background-image: url('./anh/maytinh/lapdohoa/anh10.webp');
+    background-size: cover;
+}
+.imgdn10:hover{
+    cursor: pointer;
+    background-image: url('./anh/maytinh/lapdohoa/anh10.webp');
+}
+.item .content{
+   margin-top: 15px;
+}
+.title{
+    font-size: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: bolder;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.item .content .des div{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.item .content .price{
+    color: red;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.listPage{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+.listPage li{
+    background-color: white;
+    padding: 15px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.listPage .active{
+    background-color: aqua;
+    color: white;
+}
+.thongtin{
+    width: 25%;
+    height: 270px;
+    border: solid 1px rgb(29, 27, 27);
+    color: white;
+}
+.thongtin div,li{
+    margin-top: 15px;
+}
+.thongtin li:hover{
+    cursor: pointer;
+    color: rgb(33, 150, 213);
+}
+.dk{
+    width: 80%;
+    transform: translateX(12.5%);
+    height: 60px;
+    border-bottom: solid 2px white;
+    display: flex;
+}
+.dky{
+    height: 40px;
+    margin-top: 8px;
+    background-color:rgb(33, 150, 213);
+    width: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 15px;
+}
